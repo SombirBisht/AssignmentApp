@@ -20,9 +20,18 @@ Once Submit button is active move to next screen without any Remote API Call.
 List of popular Movies on this screen in a grid view with number of columns as 2.
 Each Item contains the name and image. 
 
+### Drawer Screen:
+Drawer screen with Home, Notification, Choose language, About and Logout options
+
+### About Screen:
+### Notification Screen:
+### Choose language Screen:
+
 ## Screenshots
 ![Login Screen](./assets/screens/login.png)
 ![Home Screen](./assets/screens/home.png)
+![Side Drawer](./assets/screens/drawer.png)
+![Choose language Screen](./assets/screens/language.png)
 
 ## Technology Used
 - React Native CLI
