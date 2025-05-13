@@ -7,16 +7,16 @@ export const HomeScreen = () => {
     const { t } = useTranslation();
     const [refresh, setRefresh] = useState(false)
     let moviesData = [
-        { id: '1', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('avatarss'), description: t('description_text') },
-        { id: '2', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('maverick'), description: t('description_text') },
-        { id: '3', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('spider_man'), description: t('description_text') },
-        { id: '4', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('batman'), description: t('description_text') },
-        { id: '5', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('avatarss'), description: t('description_text') },
-        { id: '6', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('maverick'), description: t('description_text') },
-        { id: '7', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('spider_man'), description: t('description_text') },
-        { id: '8', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('batman'), description: t('description_text') },
-        { id: '9', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('avatarss'), description: t('description_text') },
-        { id: '10', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('maverick'), description: t('description_text') },
+        { id: '1', url: 'https://api.slingacademy.com/public/sample-products/1.png', title: t('avatarss'), description: t('description_text') },
+        { id: '2', url: 'https://api.slingacademy.com/public/sample-products/2.png', title: t('maverick'), description: t('description_text') },
+        { id: '3', url: 'https://api.slingacademy.com/public/sample-products/3.png', title: t('spider_man'), description: t('description_text') },
+        { id: '4', url: 'https://api.slingacademy.com/public/sample-products/4.png', title: t('batman'), description: t('description_text') },
+        { id: '5', url: 'https://api.slingacademy.com/public/sample-products/5.png', title: t('avatarss'), description: t('description_text') },
+        { id: '6', url: 'https://api.slingacademy.com/public/sample-products/6.png', title: t('maverick'), description: t('description_text') },
+        { id: '7', url: 'https://api.slingacademy.com/public/sample-products/7.png', title: t('spider_man'), description: t('description_text') },
+        { id: '8', url: 'https://api.slingacademy.com/public/sample-products/8.png', title: t('batman'), description: t('description_text') },
+        { id: '9', url: 'https://api.slingacademy.com/public/sample-products/9.png', title: t('avatarss'), description: t('description_text') },
+        { id: '10', url: 'https://api.slingacademy.com/public/sample-products/10.png', title: t('maverick'), description: t('description_text') },
     ];
     const [movies, setMovies] = useState(moviesData)
 
@@ -39,16 +39,16 @@ export const HomeScreen = () => {
 
         setRefresh(true)
         let newMovies = [
-            { id: '11', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('spider_man'), description: t('description_text') },
-            { id: '12', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('batman'), description: t('description_text') },
-            { id: '13', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('avatarss'), description: t('description_text') },
-            { id: '14', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('maverick'), description: t('description_text') },
-            { id: '15', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('spider_man'), description: t('description_text') },
-            { id: '16', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('batman'), description: t('description_text') },
-            { id: '17', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('avatarss'), description: t('description_text') },
-            { id: '18', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('maverick'), description: t('description_text') },
-            { id: '19', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('spider_man'), description: t('description_text') },
-            { id: '20', url: 'https://www.gstatic.com/webp/gallery/1.jpg', title: t('batman'), description: t('description_text') },
+            { id: '11', url: 'https://api.slingacademy.com/public/sample-products/11.png', title: t('spider_man'), description: t('description_text') },
+            { id: '12', url: 'https://api.slingacademy.com/public/sample-products/12.png', title: t('batman'), description: t('description_text') },
+            { id: '13', url: 'https://api.slingacademy.com/public/sample-products/13.png', title: t('avatarss'), description: t('description_text') },
+            { id: '14', url: 'https://api.slingacademy.com/public/sample-products/14.png', title: t('maverick'), description: t('description_text') },
+            { id: '15', url: 'https://api.slingacademy.com/public/sample-products/15.png', title: t('spider_man'), description: t('description_text') },
+            { id: '16', url: 'https://api.slingacademy.com/public/sample-products/16.png', title: t('batman'), description: t('description_text') },
+            { id: '17', url: 'https://api.slingacademy.com/public/sample-products/17.png', title: t('avatarss'), description: t('description_text') },
+            { id: '18', url: 'https://api.slingacademy.com/public/sample-products/18.png', title: t('maverick'), description: t('description_text') },
+            { id: '19', url: 'https://api.slingacademy.com/public/sample-products/19.png', title: t('spider_man'), description: t('description_text') },
+            { id: '20', url: 'https://api.slingacademy.com/public/sample-products/20.png', title: t('batman'), description: t('description_text') },
         ];
         setTimeout(() => {
             setMovies([...movies, ...newMovies])
